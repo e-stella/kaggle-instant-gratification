@@ -1,0 +1,8 @@
+exp_name: template
+seed: 1
+
+model:
+  type: lightgbm
+  params:
+    num_leaves: 64
+    learning_rate: 0.05
