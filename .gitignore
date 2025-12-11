@@ -2,6 +2,8 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.pyo
 
 # C extensions
 *.so
@@ -205,3 +207,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Kaggle data
+data/
+input/
+*.zip
+
+
+# Model artifacts
+models/
+output/
+*.pkl
+*.joblib
+*.model
+*.npy
+*.npz
+
+
+# Mac OS
+.DS_Store
+
+# Virtual envs
+env/
+venv/
